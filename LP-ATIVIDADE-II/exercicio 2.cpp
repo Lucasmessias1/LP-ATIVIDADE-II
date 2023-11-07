@@ -8,7 +8,7 @@ int main() {
 	
     float valorCompra, desconto = 0.0;
     int diaDaSemana;
-	float valorDesconto;
+    float valorDesconto;
 
     printf("Informe o valor da compra em R$: ");
     scanf("%f", &valorCompra);
