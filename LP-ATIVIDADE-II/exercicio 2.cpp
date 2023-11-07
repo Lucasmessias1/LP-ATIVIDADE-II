@@ -8,16 +8,16 @@ int main() {
 	
     float valorCompra, desconto = 0.0;
     int diaDaSemana;
-	float valorMinimoParaDesconto;
+	float valorDesconto;
 
     printf("Informe o valor da compra em R$: ");
     scanf("%f", &valorCompra);
     printf("Informe o dia da semana : ");
     scanf("%d", &diaDaSemana);
 
-	valorMinimoParaDesconto = 100.00;
+	valorDesconto = 100.00;
 
-    if (valorCompra >= valorMinimoParaDesconto) {
+    if (valorCompra >= valorDesconto) {
         if (diaDaSemana >= 2 && diaDaSemana <= 6) {
             desconto = 0.10;
         } else if (diaDaSemana == 7 || diaDaSemana == 1) {
